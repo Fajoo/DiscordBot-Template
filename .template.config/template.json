@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "https://github.com/Fajoo",
+    "classifications": [ "Infrastructure/DiscordBot" ], 
+    "name": "Discord Bot",
+    "identity": "dsbot",
+    "groupIdentity":"DiscordBot",
+    "shortName": "dsbot",
+    "tags": {
+      "language": "C#",
+      "type":"items"
+    },
+    "sourceName": "DiscordBot",
+    "preferNameDirectory": true,
+     "sources": [
+      {
+        "modifiers": [
+          {
+            "exclude": [ 
+               "register.bat", "unregister.bat", ".gitignore", ".git", "LICENSE", "README.md" ]
+          }
+        ]
+      }
+    ]
+  }
